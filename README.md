@@ -1,7 +1,7 @@
 ﻿# facu2023Febrero
 Proyecto de cero: 
 
-1.[x] Crear el proyecto: https://docs.djangoproject.com/en/4.1/intro/tutorial01/
+1. [x] Crear el proyecto: https://docs.djangoproject.com/en/4.1/intro/tutorial01/
 ![image](https://user-images.githubusercontent.com/39509104/209483762-d5b7f7f7-e0eb-4fb9-992e-e9e57eff3ebd.png)
 
 2.[x] Install django: https://django-registration-redux.readthedocs.io/en/latest/

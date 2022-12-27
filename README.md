@@ -15,12 +15,17 @@ https://www.youtube.com/watch?v=F
 ![image](https://user-images.githubusercontent.com/39509104/209483790-9b1a4d6a-8b1d-401a-9e07-a8c707fd1740.png)
    * mysite/ = ContaConmigo = The outer mysite/ root directory is a container for your project. Its name doesn’t matter to Django; you can rename it to anything you like.
    * mysite/ = ContaConmigo/ = The inner mysite/ directory is the actual Python package for your project. Its name is the Python package name you’ll need to use to import anything inside it (e.g. mysite.urls).
-   - python manage.py migrate
 
-4- Create super user:
+4- Install the postgre module pip install psycopg2 for the database
+5- python manage.py makemigrations
+6- python manage.py migrate
+
+7- Create super user:
    - python manage.py createsuperuser
-5- Crear registración con registration redux: 
+8- Subir el repo a git: https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad
+9- Crear registración con registration redux: 
    - _Z9y8rEpo0&list=PL20-QsXJgFDMc2TkM82YX_Dj54UwkPvRD&index=2
-6- Subir el repo a git: https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad
-7- Como agregar el profile?
+   - pip install django-registration-redux
+
+10- Como agregar el profile?
    - https://www.devhandbook.com/django/user-profile/
